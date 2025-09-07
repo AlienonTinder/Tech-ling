@@ -1,0 +1,67 @@
+.hero-section { 
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1c1c4a;
+  border-radius: 20px;
+  width: 1250px;
+  height: 150px;
+  padding-bottom:175px;
+  margin-top:200px;
+}
+
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("oxfod.png");
+  background-size: cover;    /* makes the image cover the whole div */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat; /* prevents tiling */
+  border-top-right-radius:40px;
+  border-top-left-radius: 40px;
+  width: 800px;
+  height:275px;
+  padding-bottom:195px;
+  border: 30px;
+  border-color: black;
+  border-style: solid;
+  border-bottom: none;
+  
+}
+ 
+font{
+  font-size:120px;
+}
+
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .learn-btn{
+  margin-top: 600px;
+  padding: 10px 20px;
+  border-radius: 20px;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+ }

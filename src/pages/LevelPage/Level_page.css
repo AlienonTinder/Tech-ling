@@ -1,0 +1,27 @@
+.level-nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+}
+
+.questions{
+    font-size: 30px;
+    font-family: "Anonymous Pro", monospace;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius:25px;
+    width:750px;
+}
+
+.level-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}

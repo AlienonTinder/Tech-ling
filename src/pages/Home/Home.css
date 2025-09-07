@@ -1,0 +1,157 @@
+.hmc{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:60px;
+font-family: "Anonymous Pro", monospace;
+font-style: normal;
+}
+
+
+.home-star{
+  width: 50px;
+  border-radius: 25px;
+}
+
+.home-level{
+  width: 1000px;
+  display: flex;
+  font-size: 20px;
+  gap:400px;
+  
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius:25px;
+}
+
+.home-leaderboard{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap:400px;
+  margin-top: 30px;
+  
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius:25px;
+}
+
+.home-badges{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap:400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius:25px;
+}
+
+.home-qoute{
+  width: 1000px;
+  display: flex;
+  font-size: 15px;
+  gap:400px;
+  
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius:25px;
+}
+
+.start{
+  text-decoration: none;
+}
+  
+  
+.home-level-h1{
+  font-weight: 700px;
+  
+}
+
+.home-leadreboard{
+  font-weight: 700px;
+}
+
+.home-badges{
+  font-weight: 700px;
+}
+  
+.Home-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900px;
+}
+  
+
+.home-start{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
+
+.menu-home{
+
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  width: 600px;
+  font-size: 20px;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-icon{
+    width : 48px;
+    height:48px;
+    border-radius: 20px;
+   
+}
+
+.home-logo{
+
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+

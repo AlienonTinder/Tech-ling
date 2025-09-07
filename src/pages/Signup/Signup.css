@@ -1,0 +1,85 @@
+
+
+.signup-container {
+      background-color: #f5f1e6;
+      padding: 1rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      width: 100%;
+      max-width: 400px;
+      margin-left: 500px;
+      margin-top: 150px;
+    }
+
+    .signup-container  h2 {
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    form label {
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    form input {
+      width: 90%;
+      padding: 0.75rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: #ffffff;
+      margin-bottom: 1.25rem;
+      color: var(--text);
+    }
+
+    form button, #googleLoginBtn {
+      width: 100%;
+     border: 1px solid #000;
+      border-radius: 10px;
+      padding: 0.85rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button {
+      background-color: #ffffff;
+      color: #111111;
+    }
+
+    form button:hover {
+      background-color: #ffffff;
+      color: #111111;
+    }
+
+    #googleLoginBtn {
+      margin-top: 1rem;
+      background-color: #ffffff;
+      color: #000;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    #googleLoginBtn {
+        background-color: #ffffff;
+       color: #111111;
+    }
+
+    #googleLoginBtn:hover {
+      background-color: #111111;
+       color: #ffffff;
+    }
+
+    .signupbtn:hover{
+      background-color:black;
+      color:white;
+
+    }

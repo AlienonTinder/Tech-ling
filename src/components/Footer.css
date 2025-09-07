@@ -1,0 +1,23 @@
+
+.footer-c{
+border-color: grey;
+border-style: solid;
+border-width: 2px;
+border-left: none;
+border-right: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: "Anonymous Pro", monospace;
+font-style: normal;
+border-radius: 4px;
+margin-top: 30px;
+}
+
+.cllg-logo{
+    width:150px;
+}
+
+.sc{
+    font-size:4;
+}
